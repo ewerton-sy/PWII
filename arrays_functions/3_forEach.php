@@ -25,7 +25,7 @@ echo '<h1>Estacionamento batida feliz</h1>';
 foreach ($estacionamento as $key => $veiculo) {
   echo 'veiculo:' . $veiculo['nome'] . '<br>';  
   echo 'placa:' . $veiculo['placa'] . '<br>';  
-  echo '<img src="'  . $veiculo['foto'] . '<br>';
+  echo '<img src="'  . $veiculo['foto'] . '"> <br>';
   echo '<hr>';  
 };
 ?>
