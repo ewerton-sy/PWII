@@ -33,10 +33,10 @@ $etec = [
   
 ];
 
-foreach ($etec as $area => $cursos) {
+foreach ($etec as $area => $materias) {
     echo '<hr> Área: '. $area. '<br>';
-    foreach ($cursos as $curso => $modulos) {
-        echo '<br> Matéria: ' . $curso . '<br>' ;
+    foreach ($materias as $materia => $modulos) {
+        echo '<br> Matéria: ' . $materia . '<br>' ;
         foreach ($modulos as $modulo) {
             echo '<ul> <li>' . $modulo . '</li> </ul>';
         }
