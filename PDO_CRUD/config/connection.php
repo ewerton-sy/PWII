@@ -10,5 +10,4 @@
     } catch(PDOException $erro){
         die('Erro na Conexão:' . $erro->getMessage());
     }
-
 ?>
