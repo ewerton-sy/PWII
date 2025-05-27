@@ -5,7 +5,7 @@
     <label for="username">Nome de usuário:</label>
     <input type="text" name="username" id="username">
     <br><br>
-    <label for="password">Senha do usuário:</label>
+    <label for="password">Senha:</label>
     <input type="password" name="password" id="password">
     <br><br>
     <button type="submit">Cadastrar</button>
